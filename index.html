@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex App Studio | Custom Web & Mobile Apps with R0 Monthly Fees</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#312e81',
+              accent: '#10b981'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- NAVIGATION -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-400 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-brand-500/30">
+          A
+        </div>
+        <span class="font-extrabold text-xl tracking-tight text-white">Apex<span class="text-brand-500">App</span>Studio</span>
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#benefits" class="hover:text-brand-500 transition">Why Custom Code</a>
+        <a href="#calculator" class="hover:text-brand-500 transition">Instant Quote</a>
+        <a href="#portfolio" class="hover:text-brand-500 transition">Portfolio Demos</a>
+        <a href="#pricing" class="hover:text-brand-500 transition">Packages</a>
+      </div>
+      <a href="#calculator" class="bg-brand-600 hover:bg-brand-500 text-white text-sm font-semibold px-4 py-2 rounded-lg transition shadow-md shadow-brand-600/20">
+        Get Exact Quote
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="pt-32 pb-20 px-4 sm:px-6 max-w-6xl mx-auto text-center">
+    <div class="inline-flex items-center space-x-2 bg-brand-500/10 border border-brand-500/30 text-brand-400 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+      <i class="fa-solid fa-bolt"></i>
+      <span>Zero Monthly Platform Fees For Life</span>
+    </div>
+    <h1 class="text-4xl sm:text-6xl font-black text-white tracking-tight max-w-4xl mx-auto leading-tight">
+      High-Speed Web & Mobile Apps for <span class="bg-gradient-to-r from-brand-500 via-indigo-400 to-emerald-400 bg-clip-text text-transparent">Any Local Service Business</span>
+    </h1>
+    <p class="mt-6 text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+      Stop paying R300–R500 every month to website builders. We develop custom, high-converting booking apps with zero monthly hosting costs.
+    </p>
+    
+    <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="#calculator" class="w-full sm:w-auto bg-brand-600 hover:bg-brand-500 text-white font-bold px-8 py-4 rounded-xl transition shadow-xl shadow-brand-600/30 flex items-center justify-center space-x-3 text-lg">
+        <span>Get Your Exact ZAR Quote</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="#portfolio" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-semibold px-8 py-4 rounded-xl transition flex items-center justify-center space-x-2 text-lg">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <span>View Live Demos</span>
+      </a>
+    </div>
+
+    <!-- STATS / TRUST BADGES -->
+    <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto border-t border-slate-800/80 pt-10">
+      <div>
+        <p class="text-2xl font-black text-white">R0 / mo</p>
+        <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Hosting Platform Fees</p>
+      </div>
+      <div>
+        <p class="text-2xl font-black text-emerald-400">100% Custom</p>
+        <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Code & Mobile Design</p>
+      </div>
+      <div>
+        <p class="text-2xl font-black text-white">50 / 50</p>
+        <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Flexible Payment Terms</p>
+      </div>
+      <div>
+        <p class="text-2xl font-black text-brand-500">WhatsApp</p>
+        <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Automated Checkout</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CODE-BASED WIN -->
+  <section id="benefits" class="py-16 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-extrabold text-white">Why Local Businesses Switch to Custom Code</h2>
+        <p class="text-slate-400 mt-3">Avoid subscription traps and deliver lightning-fast experiences on mobile phones.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-brand-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-6">
+            <i class="fa-solid fa-piggy-bank"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Zero Monthly Subscriptions</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Platforms like Wix or Shopify charge R300–R600 every month just to stay online. Our custom code hosts 100% free on cloud infrastructure for life.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-brand-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-400 flex items-center justify-center text-xl mb-6">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Direct WhatsApp Bookings</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Clients select their required services and package options, then click to send a perfectly formatted booking request directly to your phone.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-brand-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl mb-6">
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Ultra-Fast Mobile Speed</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Custom code loads instantly even on weak 3G/4G connections, ensuring potential local customers never bounce off due to slow loading speeds.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIVERSAL INSTANT QUOTE & SCOPE CALCULATOR -->
+  <section id="calculator" class="py-20 px-4 sm:px-6 max-w-5xl mx-auto">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-brand-500 font-bold text-sm uppercase tracking-wider">Universal Scope & Price Calculator</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Calculate Your Exact Project Quote</h2>
+        <p class="text-slate-400 mt-2 text-sm">Tell us about your business and scope to get an exact ZAR breakdown instantly.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        <!-- INPUT FORM -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- DYNAMIC BUSINESS NAME & DESCRIPTION INPUT -->
+          <div>
+            <label class="block text-sm font-semibold text-slate-200 mb-2">1. Business Name & Industry / Description</label>
+            <div class="grid grid-cols-1 gap-3">
+              <input type="text" id="businessName" placeholder="e.g. CleanWorks Detailing, Elite Fitness, Salon Name" 
+                     class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition text-sm">
+              <input type="text" id="businessType" placeholder="Describe what you do (e.g., Mobile Car Wash, Personal Trainer, Salon, Electrician)" 
+                     class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition text-sm">
+            </div>
+          </div>
+
+          <!-- PROJECT TYPE -->
+          <div>
+            <label class="block text-sm font-semibold text-slate-200 mb-2">2. What type of website/app do you need?</label>
+            <div class="grid grid-cols-2 gap-3">
+              <button type="button" onclick="setProjectType('starter')" id="btnStarter" class="p-4 rounded-xl border border-slate-800 bg-slate-950 text-left hover:border-brand-500 transition">
+                <p class="font-bold text-white text-sm">Starter Page</p>
+                <p class="text-xs text-slate-400 mt-1">Single page with info, map & direct call button.</p>
+              </button>
+              <button type="button" onclick="setProjectType('booking')" id="btnBooking" class="p-4 rounded-xl border-2 border-brand-500 bg-brand-500/10 text-left transition">
+                <p class="font-bold text-white text-sm">Interactive Booking App</p>
+                <p class="text-xs text-slate-400 mt-1">Service catalog, cart total & WhatsApp checkout.</p>
+              </button>
+            </div>
+          </div>
+
+          <!-- SCOPE QUESTION 1: MENU SIZE -->
+          <div>
+            <label class="block text-sm font-semibold text-slate-200 mb-2">3. How many services/packages do you offer?</label>
+            <select id="menuScope" onchange="calculateQuote()" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:border-brand-500 transition text-sm">
+              <option value="low">Simple Menu (1 to 5 services)</option>
+              <option value="medium" selected>Standard Menu (6 to 12 services with categories)</option>
+              <option value="high">Large Catalog (13+ services with custom add-ons)</option>
+            </select>
+          </div>
+
+          <!-- SCOPE QUESTION 2: CONTENT READINESS -->
+          <div>
+            <label class="block text-sm font-semibold text-slate-200 mb-2">4. Do you have ready photos and text descriptions?</label>
+            <select id="contentScope" onchange="calculateQuote()" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:border-brand-500 transition text-sm">
+              <option value="ready">Yes, I have high-resolution photos and pricing ready</option>
+              <option value="needs_help" selected>I have basic pricing, but need help formatting text/photos</option>
+            </select>
+          </div>
+
+          <!-- ADD-ONS -->
+          <div class="border-t border-slate-800 pt-4">
+            <label class="block text-sm font-semibold text-slate-200 mb-2">5. Optional Add-Ons</label>
+            <div class="space-y-2">
+              <label class="flex items-center space-x-3 bg-slate-950 p-3 rounded-xl border border-slate-800 cursor-pointer hover:border-slate-700">
+                <input type="checkbox" id="addLogo" onchange="calculateQuote()" class="w-4 h-4 text-brand-600 rounded focus:ring-brand-500">
+                <div class="text-xs">
+                  <span class="font-bold text-white">Custom Logo Design (+R600)</span>
+                  <p class="text-slate-400">High-resolution PNG/SVG transparent files for web and social media.</p>
+                </div>
+              </label>
+              <label class="flex items-center space-x-3 bg-slate-950 p-3 rounded-xl border border-slate-800 cursor-pointer hover:border-slate-700">
+                <input type="checkbox" id="addMaintenance" onchange="calculateQuote()" class="w-4 h-4 text-brand-600 rounded focus:ring-brand-500">
+                <div class="text-xs">
+                  <span class="font-bold text-white">Monthly Care & Maintenance (+R350/mo)</span>
+                  <p class="text-slate-400">WhatsApp us anytime you need price updates, photo additions, or edits.</p>
+                </div>
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- OUTPUT QUOTE BOX -->
+        <div class="lg:col-span-5 bg-slate-950 border border-slate-800 rounded-2xl p-6 text-center sticky top-24">
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Calculated ZAR Quote</span>
+          
+          <div class="my-6">
+            <p class="text-5xl font-black text-white" id="totalPrice">R3,800</p>
+            <p class="text-xs text-brand-400 font-medium mt-2">Once-off payment • R0 monthly hosting fees</p>
+          </div>
+
+          <div class="bg-slate-900 rounded-xl p-4 text-left space-y-2 border border-slate-800 text-xs mb-6">
+            <div class="flex justify-between text-slate-300">
+              <span>50% Upfront Deposit:</span>
+              <span class="font-bold text-white" id="depositAmount">R1,900</span>
+            </div>
+            <div class="flex justify-between text-slate-300">
+              <span>Final Payment (After Review):</span>
+              <span class="font-bold text-white" id="finalAmount">R1,900</span>
+            </div>
+            <div class="flex justify-between border-t border-slate-800 pt-2 text-emerald-400">
+              <span>Monthly Hosting Saved vs Wix:</span>
+              <span class="font-bold">~R350 / mo</span>
+            </div>
+          </div>
+
+          <button onclick="sendWhatsAppQuote()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-emerald-600/20 flex items-center justify-center space-x-2 text-sm">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>Send Quote Request via WhatsApp</span>
+          </button>
+          
+          <p class="text-[11px] text-slate-500 mt-3">Instant connection to our developer line with zero obligation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SHOWCASE -->
+  <section id="portfolio" class="py-20 bg-slate-900/40 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-extrabold text-white">Live Portfolio Demos</h2>
+        <p class="text-slate-400 mt-2 text-sm">Interactive applications designed and deployed for local businesses.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- DEMO 1: BOOKING APP -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-brand-500/50 transition group flex flex-col">
+          <div class="bg-slate-950 p-6 border-b border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-bold text-brand-400 bg-brand-500/10 px-3 py-1 rounded-full">Interactive Web App</span>
+            <i class="fa-solid fa-car-wash text-slate-500 group-hover:text-brand-500 transition"></i>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white">Auto Detailer Booking App</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Features live package selection, add-on checkboxes, cart calculation, and direct WhatsApp booking.
+              </p>
+            </div>
+            <a href="https://shirileleangel.github.io/service-booking-app/" target="_blank" 
+               class="mt-6 w-full bg-slate-800 hover:bg-brand-600 text-white font-semibold py-2.5 rounded-lg text-xs text-center transition block">
+              Test Live Demo <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- DEMO 2: GYM LANDING PAGE -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-brand-500/50 transition group flex flex-col">
+          <div class="bg-slate-950 p-6 border-b border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">Starter Landing Page</span>
+            <i class="fa-solid fa-dumbbell text-slate-500 group-hover:text-emerald-400 transition"></i>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white">Fitness & Gym Landing Page</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                High-converting responsive landing page showing gym facilities, class schedules, and trial pass forms.
+              </p>
+            </div>
+            <a href="https://shirileleangel.github.io/Gym-landing-page/" target="_blank" 
+               class="mt-6 w-full bg-slate-800 hover:bg-emerald-600 text-white font-semibold py-2.5 rounded-lg text-xs text-center transition block">
+              Test Live Demo <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- DEMO 3: MOBILE UI -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-brand-500/50 transition group flex flex-col">
+          <div class="bg-slate-950 p-6 border-b border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-bold text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded-full">Mobile UI Demo</span>
+            <i class="fa-solid fa-mobile text-slate-500 group-hover:text-indigo-400 transition"></i>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white">FitPulse Mobile Interface</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Sleek mobile dashboard interface showcasing fitness tracking, user statistics, and smooth navigation UI.
+              </p>
+            </div>
+            <a href="https://shirileleangel.github.io/FitPulse-Mobile-UI/" target="_blank" 
+               class="mt-6 w-full bg-slate-800 hover:bg-indigo-600 text-white font-semibold py-2.5 rounded-lg text-xs text-center transition block">
+              Test Live Demo <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSPARENT PRICING CARDS -->
+  <section id="pricing" class="py-20 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <h2 class="text-3xl font-extrabold text-white">Standard Pricing Packages</h2>
+      <p class="text-slate-400 mt-2 text-sm">Fixed once-off prices. No hidden monthly platform bills.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <!-- STARTER -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between">
+        <div>
+          <h3 class="text-xl font-bold text-white">Code-Based Starter Page</h3>
+          <p class="text-slate-400 text-xs mt-1">Best for small local businesses wanting a quick online presence.</p>
+          <p class="text-4xl font-black text-white mt-6">R1,500 <span class="text-slate-500 text-sm font-normal">– R2,500</span></p>
+          <p class="text-xs text-emerald-400 font-semibold mt-1">R0 / month hosting fee</p>
+
+          <ul class="mt-6 space-y-3 text-xs text-slate-300 border-t border-slate-800 pt-6">
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Single-Page Responsive Mobile Site</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Business Hours, Location & Services Info</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Direct Call & WhatsApp Chat Buttons</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Free Cloud Hosting Setup</span></li>
+          </ul>
+        </div>
+        <a href="#calculator" class="mt-8 w-full bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl text-center text-xs transition">Select Starter Page</a>
+      </div>
+
+      <!-- INTERACTIVE BOOKING APP -->
+      <div class="bg-slate-900 border-2 border-brand-500 rounded-2xl p-8 relative flex flex-col justify-between shadow-xl shadow-brand-500/10">
+        <div class="absolute -top-3.5 right-6 bg-brand-600 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+          Most Popular
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-white">Interactive Booking Web App</h3>
+          <p class="text-slate-400 text-xs mt-1">Best for service businesses with multiple packages & add-ons.</p>
+          <p class="text-4xl font-black text-white mt-6">R3,500 <span class="text-slate-500 text-sm font-normal">– R5,500</span></p>
+          <p class="text-xs text-emerald-400 font-semibold mt-1">R0 / month hosting fee</p>
+
+          <ul class="mt-6 space-y-3 text-xs text-slate-300 border-t border-slate-800 pt-6">
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Interactive Service Catalog with Category Filters</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Automated Shopping Cart & Price Calculator</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Automated WhatsApp Order Checkout</span></li>
+            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-brand-500"></i><span>Google Maps & Review Integration</span></li>
+          </ul>
+        </div>
+        <a href="#calculator" class="mt-8 w-full bg-brand-600 hover:bg-brand-500 text-white font-semibold py-3 rounded-xl text-center text-xs transition">Calculate Exact Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800 py-10 text-center text-slate-500 text-xs">
+    <div class="max-w-6xl mx-auto px-4">
+      <p class="font-bold text-slate-300 text-sm">Apex App Studio</p>
+      <p class="mt-1">Custom Web & Mobile Application Development • South Africa</p>
+      <p class="mt-4 text-slate-600">© 2026 Apex App Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- CALCULATOR SCRIPT -->
+  <script>
+    let selectedType = 'booking';
+
+    function setProjectType(type) {
+      selectedType = type;
+      const btnStarter = document.getElementById('btnStarter');
+      const btnBooking = document.getElementById('btnBooking');
+
+      if(type === 'starter') {
+        btnStarter.className = "p-4 rounded-xl border-2 border-brand-500 bg-brand-500/10 text-left transition";
+        btnBooking.className = "p-4 rounded-xl border border-slate-800 bg-slate-950 text-left hover:border-brand-500 transition";
+      } else {
+        btnBooking.className = "p-4 rounded-xl border-2 border-brand-500 bg-brand-500/10 text-left transition";
+        btnStarter.className = "p-4 rounded-xl border border-slate-800 bg-slate-950 text-left hover:border-brand-500 transition";
+      }
+      calculateQuote();
+    }
+
+    function calculateQuote() {
+      let basePrice = selectedType === 'starter' ? 1500 : 3500;
+
+      const menuScope = document.getElementById('menuScope').value;
+      if (menuScope === 'medium') basePrice += 500;
+      if (menuScope === 'high') basePrice += 1200;
+
+      const contentScope = document.getElementById('contentScope').value;
+      if (contentScope === 'needs_help') basePrice += 400;
+
+      if (document.getElementById('addLogo').checked) basePrice += 600;
+
+      document.getElementById('totalPrice').innerText = 'R' + basePrice.toLocaleString();
+      document.getElementById('depositAmount').innerText = 'R' + (basePrice / 2).toLocaleString();
+      document.getElementById('finalAmount').innerText = 'R' + (basePrice / 2).toLocaleString();
+    }
+
+    function sendWhatsAppQuote() {
+      const bizName = document.getElementById('businessName').value.trim() || 'My Business';
+      const bizType = document.getElementById('businessType').value.trim() || 'Local Service';
+      const total = document.getElementById('totalPrice').innerText;
+      const appType = selectedType === 'starter' ? 'Starter Page' : 'Interactive Booking App';
+      const logoAdded = document.getElementById('addLogo').checked ? 'Yes' : 'No';
+      const mainAdded = document.getElementById('addMaintenance').checked ? 'Yes' : 'No';
+
+      const message = `Hi Apex App Studio! I calculated an estimated quote on your website:
+
+• Business Name: ${bizName}
+• Business Type/Description: ${bizType}
+• Project Package: ${appType}
+• Logo Design Needed: ${logoAdded}
+• Monthly Maintenance: ${mainAdded}
+• Estimated Quote: ${total}
+
+I would like to discuss building this for my business!`;
+
+      // Dedicated WhatsApp Business Line
+      const phone = "27663649526"; 
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+
+    // Initialize calculation on load
+    calculateQuote();
+  </script>
+</body>
+</html>
